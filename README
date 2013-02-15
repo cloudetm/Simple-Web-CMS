@@ -1,0 +1,50 @@
+Simple Web CMS
+
+Simple CMS system made for online content editing of small websites. Just one PHP file easy setup and no database required. Works fine on *nix systems on windows i don't know (you can try).
+
+Current release:
+
+20100109
+
+Fork it on:
+
+https://github.com/jhwd/Simple-Web-CMS
+
+Requirements:
+
+A webserver like Apache and PHP >= 5 running.
+
+Update: (2010-01-09)
+
+    The css style file is now located in a seperated css folder
+    The javascript configuration file is now located in the js folder
+    All images are now located in a seperated img folder
+
+Update: (2009-12-13)
+
+    It is now possible to set if you want upload all files or just images
+    Simple Web CMS now includes a WYSIWYG editor
+
+How to:
+
+    Download
+    Unzip download
+    Open simplewebcms.php in your favorite editor
+        Set your username and password (or multiple usernames with password)
+        Set path to current working directory or leave default
+        Set include folder in your current working directory or leave default
+        Set upload folder in your current working directory or leave default
+        Set maximum file size for file upload or leave default
+        Set upload only images to true or false
+    Create the include folder and insert some .txt files
+    Create the upload folder
+    Upload simplewebcms.php, example_html.php, css, img, include, js and upload folder to your Apache webserver
+    Give write permissions to include and upload folder like CHMOD 0777
+    Open a browser like Firefox and surf to simplewebcms.php
+    Login with your username and password
+    Edit files in your include folder or upload files in your upload folder
+    That is it!
+
+Found a problem:
+
+Please let me know if you find any problems at info[AT]jhwd[DOT]nl
